@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Northstar Studio to talk about a brand, website, or new creative project.">
+    <meta name="theme-color" content="#f7f7f2">
+    <title>Get in touch — Northstar Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="all.css/home.css">
+</head>
+<body id="top">
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="home.php" aria-label="Northstar Studio home"><span class="brand-mark" aria-hidden="true">N</span><span class="brand-name">northstar<span>®</span></span></a>
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="home.php">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="portfolio.html">Work</a><a href="founders.html">Founders</a>
+            </nav>
+            <a class="button button--small header-cta" href="contact.html" aria-current="page">Let’s talk <span aria-hidden="true">↗</span></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero page-hero--contact">
+            <div class="container">
+                <p class="eyebrow"><span class="eyebrow-dot"></span> Your next move starts here</p>
+                <h1>Tell us what<br><span>you’re thinking.</span></h1>
+                <p class="page-lede">A new idea, a tricky challenge, or just a first conversation—we’d love to hear what’s on your mind.</p>
+                <div class="page-hero-note"><span>Real people</span><span class="hero-bottom-line"></span><span>Thoughtful replies</span></div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container contact-layout">
+                <div class="contact-details">
+                    <p class="eyebrow">Start a conversation</p>
+                    <h2>There’s no<br><span>wrong first step.</span></h2>
+                    <p>Tell us a little about what you need. We’ll get back to you and take it from there.</p>
+                    <a class="contact-direct" href="mailto:hello@northstar.studio">hello@northstar.studio <span aria-hidden="true">↗</span></a>
+                    <div class="contact-hours"><span class="eyebrow">Good to know</span><p>We work with good people everywhere.<br>Usually reply within two working days.</p></div>
+                </div>
+
+                <form class="contact-form" action="mailto:hello@northstar.studio" method="post" enctype="text/plain">
+                    <label for="name">Your name</label>
+                    <input id="name" name="name" type="text" autocomplete="name" placeholder="How should we address you?" required>
+
+                    <label for="email">Email address</label>
+                    <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+
+                    <label for="company">Business or organisation <span>(optional)</span></label>
+                    <input id="company" name="company" type="text" autocomplete="organization" placeholder="Where do you work?">
+
+                    <label for="project">What would you like to work on?</label>
+                    <select id="project" name="project" required>
+                        <option value="" selected disabled>Choose a project type</option>
+                        <option value="brand">Brand strategy or identity</option>
+                        <option value="website">Website design or development</option>
+                        <option value="both">Brand and website</option>
+                        <option value="other">Something else</option>
+                    </select>
+
+                    <label for="message">A little about your project</label>
+                    <textarea id="message" name="message" rows="5" placeholder="What are you hoping to make happen?" required></textarea>
+
+                    <button class="button contact-submit" type="submit">Send your note <span aria-hidden="true">↗</span></button>
+                    <p class="form-note">Your email app will open to send your message.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-main">
+            <a class="brand brand--footer" href="home.php" aria-label="Northstar Studio home"><span class="brand-mark" aria-hidden="true">N</span><span class="brand-name">northstar<span>®</span></span></a>
+            <p>Thoughtful brands.<br>Digital that delivers.</p>
+            <a class="footer-email" href="mailto:hello@northstar.studio">hello@northstar.studio <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="container footer-bottom"><span>© 2026 Northstar Studio</span><span>Independent by nature. Better together.</span><a href="#top">Back to top ↑</a></div>
+    </footer>
+</body>
+</html>
